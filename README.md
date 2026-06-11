@@ -1,94 +1,75 @@
-English | [简体中文](./README.zh-CN.md)
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# egg
 
-<div style="text-align:center">
-	<img src="site/public/assets/egg-banner.png" />
-</div>
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/egg)
 
-[![NPM version](https://img.shields.io/npm/v/egg.svg?style=flat-square)](https://npmjs.org/package/egg)
-[![NPM quality](http://npm.packagequality.com/shield/egg.svg?style=flat-square)](http://packagequality.com/#?package=egg)
-[![NPM download](https://img.shields.io/npm/dm/egg.svg?style=flat-square)](https://npmjs.org/package/egg)
-[![Node.js Version](https://img.shields.io/node/v/egg.svg?style=flat)](https://nodejs.org/en/download/)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Feggjs%2Fegg.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Feggjs%2Fegg?ref=badge_shield)
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-[![Continuous Integration](https://github.com/eggjs/egg/actions/workflows/ci.yml/badge.svg)](https://github.com/eggjs/egg/actions?query=branch%3Amaster)
-[![Test coverage](https://img.shields.io/codecov/c/github/eggjs/egg.svg?style=flat-square)](https://codecov.io/gh/eggjs/egg)
-[![Known Vulnerabilities](https://snyk.io/test/npm/egg/badge.svg?style=flat-square)](https://snyk.io/test/npm/egg)
-[![Open Collective backers and sponsors](https://img.shields.io/opencollective/all/eggjs?style=flat-square)](https://opencollective.com/eggjs)
+## Architecture
 
-## Features
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-- Built-in Process Management
-- Plugin System
-- Framework Customization
-- Lots of [plugins](https://github.com/search?q=topic%3Aegg-plugin&type=Repositories)
+## Install
 
-## Quickstart
-
-Follow the commands listed below.
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
 ```bash
-$ mkdir showcase && cd showcase
-$ pnpm create egg@beta
-$ pnpm install
-$ pnpm run dev
-$ open http://localhost:7001
+git clone https://github.com/Interested-Deving-1896/egg.git
+cd egg
 ```
 
-> Node.js >= 20.19.0 required, [supports `require(esm)` by default](https://nodejs.org/en/blog/release/v20.19.0).
+## Usage
 
-## Monorepo Structure
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-This project is structured as a pnpm monorepo with the following packages:
+## Configuration
 
-- `packages/egg` - Main Eggjs framework
-- `examples/helloworld-commonjs` - CommonJS example application
-- `examples/helloworld-typescript` - TypeScript example application
-- `site` - Documentation website
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
-The monorepo uses **pnpm catalog mode** for centralized dependency management, ensuring consistent versions across all packages.
+## CI
 
-### Development Commands
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
 
-```bash
-# Install dependencies for all packages
-pnpm install
+## Mirror chain
 
-# Build all packages
-pnpm run build
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/egg`](https://github.com/Interested-Deving-1896/egg) and mirrored through:
 
-# Test all packages
-pnpm run test
-
-# Run specific package commands
-pnpm --filter=egg run test
-pnpm --filter=@examples/helloworld-typescript run dev
-pnpm --filter=site run dev
+```
+Interested-Deving-1896/egg  ──►  OpenOS-Project-OSP/egg  ──►  OpenOS-Project-Ecosystem-OOC/egg
 ```
 
-## Documentations
-
-- [Documentations](https://eggjs.org/)
-- [Plugins](https://github.com/search?q=topic%3Aegg-plugin&type=Repositories)
-- [Frameworks](https://github.com/search?q=topic%3Aegg-framework&type=Repositories)
-- [Examples](https://github.com/eggjs/examples)
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
 ## Contributors
 
-[![contributors](https://contrib.rocks/image?repo=eggjs/egg&max=240&columns=26)](https://github.com/eggjs/egg/graphs/contributors)
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
 
-## How to Contribute
+## Origins
 
-Please let us know how can we help. Do check out [issues](https://github.com/eggjs/egg/issues) for bug reports or suggestions first.
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
 
-To become a contributor, please follow our [contributing guide](CONTRIBUTING.md), and review the [repository guidelines](AGENTS.md) for day-to-day development tips.
+## Resources
 
-## Sponsors and Backers
-
-[![sponsors](https://opencollective.com/eggjs/tiers/sponsors.svg?avatarHeight=48)](https://opencollective.com/eggjs#support)
-[![backers](https://opencollective.com/eggjs/tiers/backers.svg?avatarHeight=48)](https://opencollective.com/eggjs#support)
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
 
 ## License
 
-[MIT](LICENSE)
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Feggjs%2Fegg.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Feggjs%2Fegg?ref=badge_large)
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
